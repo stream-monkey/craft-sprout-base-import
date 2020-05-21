@@ -479,7 +479,7 @@ class ElementImporter extends Component
      * @return bool
      * @throws Throwable
      */
-    public function resolveMatrixRelationships($fields): bool
+    public function resolveMatrixRelationships($fields)
     {
         foreach ($fields as $field => $blocks) {
             if (is_array($blocks) && count($blocks)) {
